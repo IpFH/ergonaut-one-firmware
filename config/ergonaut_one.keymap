@@ -49,5 +49,14 @@
                                              &trans     &trans     &trans        &trans        &trans    &trans
             >;
         };
+
+        layer_for_Game {
+            bindings = <
+&kp KP_NUMBER_9  &kp Q  &kp W  &kp E                 &kp R      &kp T  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT        &kp A  &kp S  &kp D                 &kp F      &kp G  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL        &kp Z  &kp X  &kp C                 &kp V      &kp B  &trans  &trans  &trans  &trans  &trans  &trans
+                               &mt LALT KP_NUMBER_8  &kp SPACE  &to 0  &trans  &trans  &trans
+            >;
+        };
     };
 };
