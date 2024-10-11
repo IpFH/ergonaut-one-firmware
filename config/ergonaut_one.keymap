@@ -67,5 +67,14 @@
                                                    &trans           &trans           &to 0            &trans        &trans  &trans
             >;
         };
+
+        layer_writer {
+            bindings = <
+&trans  &kp A  &kp A  &kp A    &kp A            &kp A    &kp A    &kp A                &kp A    &kp A  &kp A  &trans
+&trans  &kp A  &kp A  &kp A    &kp A            &kp A    &kp A    &kp A                &kp A    &kp A  &kp A  &trans
+&trans  &kp A  &kp A  &kp A    &kp A            &kp A    &kp A    &kp A                &kp A    &kp A  &kp A  &trans
+                      &lt 2 A  &mt LSHFT SPACE  &lt 1 A  &lt 1 A  &mt RSHFT BACKSPACE  &lt 2 A
+            >;
+        };
     };
 };
